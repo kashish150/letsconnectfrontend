@@ -1,0 +1,51 @@
+.m-login-div {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 250px;
+}
+.m-login-div input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: white;
+  padding: 8px;
+  color: white;
+}
+.m-login-div label {
+  font-size: 20px;
+  padding: 5px;
+}
+.m-login-div button {
+  color: white;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+  padding: 6px;
+  border-radius: 5px;
+  border-color: white;
+  border: 2px white;
+  font-size: 18px;
+  text-align: center;
+}
+.m-login-div button:active {
+  background-color: rgb(173, 77, 241);
+  box-shadow: 0 5px rgb(18, 18, 37);
+  transform: translateY(4px);
+}
+.m-login-img {
+  width: 75%;
+  height: 730px;
+  object-fit: contain;
+}
+.m-login-img img {
+  width: 80%;
+  height: 100%;
+}
+.m-login {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+  .btn-media-none {
+    display: none;
+  }
+}

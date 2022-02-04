@@ -1,0 +1,150 @@
+.posts-div {
+  max-width: 100%;
+  height: 1000px;
+  margin: auto;
+  margin-top: 0;
+}
+.posts-i-div {
+  min-height: 200px;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.posts-uc input {
+  width: 90%;
+  height: 50px;
+  outline: 0;
+  border-width: 0 0 1px;
+  padding: 8px;
+  font-size: 25px;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+}
+.posts-uc {
+  display: flex;
+}
+.posts-i-div-uc {
+  max-width: 90%;
+  margin: auto;
+}
+.posts-btn {
+  color: white;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+  padding: 6px;
+  border-radius: 15px;
+  border-color: white;
+  border: 2px white;
+  font-size: 18px;
+  text-align: center;
+  width: 150px;
+}
+.posts-btn:active {
+  background-color: rgb(173, 77, 241);
+  box-shadow: 0 5px rgb(18, 18, 37);
+  transform: translateY(4px);
+}
+.posts-i-div img {
+  margin-top: 25px;
+  border-radius: 60%;
+  width: 50%;
+}
+.posts-i-div {
+  display: flex;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+  padding: 10px;
+}
+.post-i-text {
+  font-size: 30px;
+}
+.div-post-name {
+  font-size: 22px;
+  color: white;
+}
+.posts-i-div {
+  display: flex;
+}
+.div-posts-text {
+  font-size: 20px;
+  padding: 10px;
+  max-width: 90%;
+}
+.posts-icon-img {
+  text-align: center;
+}
+hr {
+  border: 1px solid rgb(122, 74, 234);
+  margin: auto;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+  margin-bottom: 40px;
+}
+
+.post-comment {
+  width: 80%;
+  height: 25px;
+  outline: 0;
+  border-width: 0 0 1px;
+  font-size: 25px;
+  color: white;
+  border-radius: 15px;
+}
+.comment-posts {
+  display: flex;
+  font-size: 10px;
+}
+.posts-text {
+  font-size: 15px;
+}
+.posts-cmt-btn {
+  color: white;
+  box-shadow: 2px 2px rgb(173, 77, 241), -0.01em 0 1em rgb(122, 74, 234);
+  padding: 6px;
+  border-radius: 12px;
+  border-color: white;
+  border: 2px white;
+  font-size: 12px;
+  text-align: center;
+  width: 100px;
+}
+.div-post-name {
+  text-align: center;
+}
+.div-posts-text {
+  font-size: 20px;
+}
+.post-comments-section {
+  margin-top: 30px;
+  font-size: small;
+}
+.comment-img {
+  height: 15px;
+  width: 10px;
+}
+.post-cmt-user {
+  display: flex;
+}
+.cmt-img {
+  height: 22px;
+  width: 2px;
+}
+.cmt-txt {
+  margin-top: auto;
+}
+.post-likes {
+  font-size: 10px;
+}
+.name {
+  font-size: 15px;
+}
+.post-comment {
+  font-size: 12px;
+}
+.flex {
+  display: flex;
+  cursor: auto;
+}
+.posts-div img {
+  border-radius: 50%;
+  width: 30%;
+}
